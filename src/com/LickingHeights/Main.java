@@ -32,12 +32,15 @@ int L;
 Scanner keyboard;
 keyboard = new Scanner(System.in);
 
+
         System.out.println("How many stars do you think form per year?");
         rStar = keyboard.nextInt();
         System.out.println("How many stars formed will have planets?");
         f_p = keyboard.nextDouble();
         System.out.println("How many planets will be capable of developing life?");
         numberOfExoplanets = keyboard.nextInt();
+        System.out.println("What percentage of these planets will develop life?");
+        f_l = keyboard.nextDouble();
 
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
