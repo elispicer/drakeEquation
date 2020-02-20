@@ -45,6 +45,8 @@ keyboard = new Scanner(System.in);
         f_i = keyboard.nextDouble();
         System.out.println("What percentage will be able to communicate?");
         f_c = keyboard.nextDouble();
+        System.out.println("How long were they able to communicate?");
+        L = keyboard.nextInt();
 
 
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
