@@ -36,6 +36,8 @@ keyboard = new Scanner(System.in);
         rStar = keyboard.nextInt();
         System.out.println("How many stars formed will have planets?");
         f_p = keyboard.nextDouble();
+        System.out.println("How many planets will be capable of developing life?");
+        numberOfExoplanets = keyboard.nextInt();
 
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
