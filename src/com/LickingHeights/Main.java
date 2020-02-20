@@ -41,6 +41,9 @@ keyboard = new Scanner(System.in);
         numberOfExoplanets = keyboard.nextInt();
         System.out.println("What percentage of these planets will develop life?");
         f_l = keyboard.nextDouble();
+        System.out.println("What percentage will develop intelligent life?");
+        f_i = keyboard.nextDouble();
+
 
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
