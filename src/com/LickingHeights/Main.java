@@ -43,6 +43,8 @@ keyboard = new Scanner(System.in);
         f_l = keyboard.nextDouble();
         System.out.println("What percentage will develop intelligent life?");
         f_i = keyboard.nextDouble();
+        System.out.println("What percentage will be able to communicate?");
+        f_c = keyboard.nextDouble();
 
 
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
