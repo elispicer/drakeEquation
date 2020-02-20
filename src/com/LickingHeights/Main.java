@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -20,15 +22,18 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
  */
 
 int N;
-int rStar;
+String rStar;
 double f_p;
 int numberOfExoplanets;
 double f_l;
 double f_i;
 double f_c;
 int L;
+Scanner keyboard;
+keyboard = new Scanner(System.in);
 
-N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
+
+        N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
 System.out.println("The number of intelligent species that are out there \n" +
 "that can communicate with us is: " + N);
@@ -36,11 +41,6 @@ System.out.println("The number of intelligent species that are out there \n" +
 
 
 
-
-
-
-
-
-    }
+   }
 
 }
